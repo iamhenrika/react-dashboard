@@ -13,17 +13,12 @@ import './App.css';
 export default function App() {
   return (
     <div className="app">
-      <div className="navigation">
       <Navigation />
-      </div>
-      <div className="rectangles">
       <Reviews />
       <Rating />
       <Analysis />
-      </div>
-      <div className="footer">
       <Visitors />
-      </div>
+      <div id='blank'></div>
     </div>
   );
 }
